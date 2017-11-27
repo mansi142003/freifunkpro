@@ -1,9 +1,9 @@
-title: coala Projects
+title: freifunk GSoC Projects
 license: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
-organization: coala
+organization: freifunk.net
 description: A website that showcases interesting projects, using Angular JS.
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site
+url: "https://projects.freifunk.net"  # the base hostname & protocol for your site
 
 plugins:
   - jekyll-netlify
