@@ -62,3 +62,12 @@
       width: 90% !important;
   }
 }
+.theatre .name {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
+  cursor: pointer;
+  background-color: #f3f5f8;
+}

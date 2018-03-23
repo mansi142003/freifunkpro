@@ -1,7 +1,7 @@
 ---
 question: "Do you have an application template?"
 ---
-coala 2017 Application Template
+coala 2018 Application Template
 ===============================
 
 ```
@@ -11,6 +11,7 @@ Student Info
 - Name:
 - GitHub username:
 - Alternative-/Nickname:
+- Username Checker: (e.g. https://username-check.herokuapp.com/?username=your_username)
 - Email:
 - Which country will you reside in during the project?
 - Which city, region or other geographical boundary?
@@ -44,14 +45,14 @@ Project Info
 
 - Which project from http://projects.coala.io are you applying for?
   If you have your own idea, please add it to our projects list:
-  https://github.com/coala/projects/blob/master/data/projects.js
+  https://github.com/coala/projects/blob/master/data/projects.liquid
 
 - How is your project helping coala and its community?
 
 - What is the final goal for this project? What would make it a total
   and perfect success?
 
-- Are you already engaged with the project's possible mentors and to
+- Are you already engaged with the project's possible mentors and do
   you have any preference for a particular mentor?
   We will try to get you your first choice for a mentor, usually it will
   be the first listed mentor as primary and another as secondary.
@@ -77,7 +78,7 @@ Other Commitments
 -----------------
 
 - Do you have any other commitments during the GSoC period,
-  May 8th to August 29th?
+  May 14th to August 14th?
 
     - We don't penalize students for needing adjustments to schedule if
       they're up-front about them and have a plan to mitigate any issues.

@@ -93,6 +93,17 @@
             controller: function ($scope, $location, Languages) {
                 self = this
 
+                var mapping = {
+                    '': 0,
+                    'crowded': 1,
+                    'in_progress': 2,
+                    'completed': 3
+                }
+
+                $scope.sortOrder = function(project) {
+                    return mapping[project.status];
+                }
+
                 $scope.getDefaultProjectsMetadata = function () {
                     $http.get('data/projects.liquid')
                         .then(function (res) {
@@ -352,9 +363,9 @@
     app.filter('format_issue', function () {
         return function (value) {
             if (!value) return '';
-            res = value.split('/')
-            res = res[3] + '/' + res[4] + '#' + res[6]
-            return res;
+            res = value.split('/');
+            last = res.length - 1;
+            return res.slice(3, last - 1).join('/') + '#' + res[last];
         };
     });
 
@@ -369,7 +380,7 @@
 
                 $http.get('data/projects.liquid')
                     .then(function (res) {
-                        $scope.projects = res.data
+                        $scope.projects = res.data.filter(project => project.status != "completed")
                         angular.forEach($scope.projects, function(value, key){
                             angular.forEach(value.mentors, function(value, key){
                                 self.mentorsList[value] =  {
