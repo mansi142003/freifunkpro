@@ -19,10 +19,10 @@
         <br>
             <div class="row no-margin">
                 <div class="col m12">
-                    <h4 class="left light">Google Summer of Code 2017 Work Product Submission </h4>
+                    <h4 class="left light">Google Summer of Code {{ page.date | date: '%Y' }} Work Product Submission </h4>
                 </div>
                 <br>
-            </div> 
+            </div>
             <br>
             <div class="row no-margin">
                 <div class="col m6">
@@ -82,6 +82,14 @@
                             <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
                             <br>
                             <div class="center"><a href="{{ page.tarball }}">Download</a></div>
+                            <br>
+                            <div class="center sha256sum_hash">
+                                <strong>SHA-256</strong>:
+                                <p id="sha256sum_hash_value">
+                                    {{page.sha256sum}}
+                                </p>
+                                <i class="fa fa-clipboard" aria-hidden="true"><span class="hinttext">Copy Hash value</span></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
             <br>
              <div class="row no-margin">
                 <div class="col m12">
@@ -127,14 +135,14 @@
                     </thead>
                     <tbody class="card activity">
                         {% for commits in page.activity %}
-                        {% for c in commits %} 
+                        {% for c in commits %}
                            <tr>
                                 <td class="fl">{{ c[1][0]["repo"] | slice: 0 }}</td>
                                 <td class="">&nbsp;{{ c[1][0]["repo"] }}</td>
                                 <td><a href='{{ c[1][1]["link"] }}'>View</a></td>
                                 <td>{{ c[1][2]["details"] | markdownify}}</td>
                            </tr>
-                        {% endfor %}                      
+                        {% endfor %}
                         {% endfor %}
                     </tbody>
                 </table>
@@ -147,5 +155,21 @@
             </div>
             <br><br>
         </div>
+        <script>
+        $('document').ready(function(){
+            var hash_value = document.getElementById('sha256sum_hash_value').textContent.trim();
+            document.getElementById('sha256sum_hash_value').textContent = hash_value.substring(0,7);
+            document.querySelector('.fa-clipboard').addEventListener('click', function(){
+                var new_element = document.createElement('textarea');
+                $('new_element:first').addClass('hash_value_dup');
+                new_element.value = hash_value;
+                new_element.setAttribute('readonly', '');
+                document.body.appendChild(new_element);
+                new_element.select();
+                document.execCommand('copy');
+                document.body.removeChild(new_element);
+                });
+        })
+        </script>
     </body>
-</html> 
+</html>

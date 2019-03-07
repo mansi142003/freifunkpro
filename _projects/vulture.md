@@ -15,8 +15,9 @@ mentors:
   - jendrikseipp
 name: "Vulture dead code removal"
 requirements:
-  - "The participant should have one patch to [vulture](https://bitbucket.org/jendrikseipp/vulture) accepted."
-  - "Being familiar with the current Bear API and what it provides. Fixing an issue for a Bear during the newcomer process would help with this."
+  - "The participant should have one patch to [vulture](https://github.com/jendrikseipp/vulture) accepted."
+  - "Being familiar with the current Bear API and what it provides. Fixing an
+     issue for a Bear during the newcomer process would help with this."
   - "Knowledge of ASTs and basic language grammar is a bonus."
 tags:
   - Vulture
