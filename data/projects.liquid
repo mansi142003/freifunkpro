@@ -1,7 +1,7 @@
 ---
 ---
 [
-{% assign sorted = (site.projects | sort: 'date') %}
+{% assign sorted = (site.projects | sort: 'date') | reverse %}
 {% for post in sorted %}
 {
 "name" : "{{ post.name }}",
