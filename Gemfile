@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.5.7"
+ruby "2.5.8"
 
 gem "jekyll", ">= 4.0.0"
 gem "jekyll-netlify", ">= 0.2.0"
