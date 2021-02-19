@@ -28,8 +28,8 @@ therefore adding an ignore comment -->
                 <br> </div>
               <div ng-show="project.status=='suspended'" class="purple white-text flag card-action center"> <span class="status-title">SUSPENDED</span>
                 <br> <span class="tiny">At the moment this project is suspended. Come back later if you're still interested or contact the community.</span> </div>
-              <div ng-show="project.status.indexOf('crowded') != -1 && project.mentors.length>=1" class="red white-text card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
-                <br> <span class="tiny">If you haven't put work into this, look out for other projects for better chances!</span> </div>
+              <div ng-show="project.status.indexOf('in_review') != -1 && project.mentors.length>=1" class="blue white-text card-action center"> <span class="status-title">IN REVIEW</span>
+                <br> <span class="tiny">This idea is currently in review. Please visit this idea later, too, as there may be some changes.</span> </div>
               <div ng-show="project.status.indexOf('in_progress') != -1 && project.mentors.length>=1" class="yellow black-text card-action center"> <span class="status-title">IN PROGRESS</span>
                 <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
               <div ng-show="project.status.indexOf('in_progress') != -1" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
