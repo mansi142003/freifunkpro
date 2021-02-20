@@ -33,7 +33,7 @@ collections:
   projects:
     output: true
   reports:
-    output: true
+    output: false 
   faq:
     output: true
 
