@@ -8,11 +8,15 @@ cache: bundler
 .disable_global: &disable_global
   rvm: false
   cache: false
-  before_install: false
-  install: false
-  script: false
+  before_install: []
+  install: []
+  script: []
 
 env:
+  global:
+    - GRAVIS="https://raw.githubusercontent.com/DanySK/Gravis-CI/master/"
+    - JDK="adopt@1.8.0-275"
+
 jobs:
   include:
     - stage: moban
@@ -22,6 +26,24 @@ jobs:
       cache: pip
       install: pip install moban
       script: .ci/check_moban.sh
+    - stage: coala
+      <<: *disable_global
+      language: python
+      python: 3.6
+      cache: pip
+      before_install:
+        - curl "${GRAVIS}.install-jdk-travis.sh"
+          --output ~/.install-jdk-travis.sh
+        - source ~/.install-jdk-travis.sh
+        - npm install -g csslint@^1.0.5
+      install:
+        - cOALA_ZIP_URL=https://github.com/coala/coala/archive/master.zip
+        - curl -fsSL -o coala-master.zip $cOALA_ZIP_URL
+        - pip install coala-master.zip
+        - BEARS_ZIP_URL=https://codeload.github.com/coala/coala-bears/zip
+        - curl -fsSL -o coala-bears.zip $BEARS_ZIP_URL/master
+        - pip install coala-bears.zip[alldeps] --pre -U
+      script: coala --ci
 
 before_install:
   # Speeds installation of html-proofer
@@ -31,12 +53,6 @@ before_install:
 # the `install` step will run `bundle install` by default.
 script:
   - .ci/build.sh
-  # https://github.com/coala/coala-bears/issues/1037
-  - >
-    if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
-      sed -i.bak '/bears = GitCommitBear/d' .coafile
-    fi
-  - docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
 
 notifications:
   email: false

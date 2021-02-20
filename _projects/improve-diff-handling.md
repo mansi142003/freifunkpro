@@ -4,19 +4,19 @@ collaborating_projects:
 desc: "Bears should be able to offer more than just one possible patch for an issue."
 difficulty: low
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/1021"
 markdown: improve-diff-handling.md
 mentors:
   - satwikkansal
-  - sils
   - jayvdb
 name: "Improve Diff Handling"
 requirements:
   - "The proposal has to contain a clear concept and implementation approach."
   - "The applicant should have one patch accepted to the coala core."
+status: completed
 tags:
   - Core
   - CLI

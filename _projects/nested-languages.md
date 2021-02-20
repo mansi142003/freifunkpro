@@ -6,7 +6,7 @@ desc: "Multiple programming languages can coexist in the same source
        parts of files."
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/1690"
@@ -19,6 +19,7 @@ requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
+status: completed
 tags:
   - Core
   - Bears
