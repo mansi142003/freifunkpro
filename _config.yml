@@ -1,12 +1,25 @@
 title: freifunk GSoC Projects
-license: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
+license:
+  full_form: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
+  short_form: GNU AGPL v3.0
 organization: freifunk.net
 description: A website that showcases interesting projects, using Angular JS.
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://projects.freifunk.net"  # the base hostname & protocol for your site
 githuburl: "https://github.com/freifunk/projects"
 
+chat:
+  gsoc:
+    room: "https://matrix.to/#/!DmXQbxcSxGYgXDYrBs:bau-ha.us?via=bau-ha.us"
+
 gsoc_switch_month: 6
+
+org:
+  site_links:
+    blog: "https://blog.freifunk.net"
+
+twitter:
+  username: freifunk 
 
 plugins:
   - jekyll-netlify

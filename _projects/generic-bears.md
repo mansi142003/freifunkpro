@@ -4,13 +4,13 @@ collaborating_projects:
 desc: "The project is about fixing Issues with Generic Bears and providing better API."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues: []
 markdown: generic-bears.md
 mentors:
-  - abhsag24
-  - Mixih
+  - abhishalya
+  - sangamcse
 name: "Improve Generic Bear Quality"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
@@ -19,6 +19,7 @@ requirements:
   - "The proposal should contain issues which are planned to be addressed,
      chosen (and potentially
      [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
+status: completed
 tags:
   - Documentation
   - Bears

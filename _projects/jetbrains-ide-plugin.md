@@ -6,7 +6,7 @@ desc: "Offer a general mechanism of highlighting code analysis results from
        external tools in jetbrain IDE, the primary goal is to support coala."
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/2019"
@@ -17,6 +17,7 @@ name: "Plugin for jetbrains IDEs"
 requirements:
   - "The applicant should have at least one patch accepted to any of the coala plugins."
   - "The applicant shoule be familiar with jetbrains IDEs, e.g. PyCharm, IntelliJ IDEA."
+status: completed
 tags:
   - "Jetbrains IDEs"
   - Plugins
