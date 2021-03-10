@@ -16,10 +16,13 @@ angular.module('coala')
 
                 var mapping = {
                     '': 0,
+                    'open': 0.5,
                     'crowded': 1,
                     'in_progress': 2,
                     'completed': 3,
-                    'disabled': 4
+                    'in_review': 3.5,
+                    'disabled': 4,
+                    'suspended': 5
                 }
 
                 self.displayFilters = false
