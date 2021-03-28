@@ -372,6 +372,7 @@ angular.module('coala')
                     var redirectTo = {
                         "integrate_pyflakes-enhanced_ast_into_coala_": "integrate_pyflakes-enhanced_ast_into_coala"
                     };
+                    $scope.sortProjects();
                     $scope.projects_url_dict = {}
                     $scope.projects_url_list = Object.keys($scope.projects_url_dict);
                     angular.forEach($scope.projectList, function (value, key) {
@@ -381,7 +382,6 @@ angular.module('coala')
                         $scope.projects_url_dict[value["url"]] = key
                     });
 
-                    $scope.sortProjects();
 
                     var project_requested = encodeURIComponent($location.search().project);
                     if (project_requested) {
