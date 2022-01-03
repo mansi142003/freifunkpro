@@ -345,7 +345,7 @@ angular.module('coala')
 
                         total_projects = $scope.projectList.length
                         angular.forEach($scope.projectList, function (value, key) {
-                            if ($scope.currentProject.name == value["name"]) {
+                            if ($scope.currentProject.path == value["path"]) {
                                 current_project_index = key
                             }
                         });
@@ -382,16 +382,14 @@ angular.module('coala')
                         $scope.projects_url_dict[value["url"]] = key
                     });
 
-
                     var project_requested = encodeURIComponent($location.search().project);
                     if (project_requested) {
-                        if (project_requested in redirectTo) {
-                            project_requested = redirectTo[project_requested]
-                        }
                         if (Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1) {
                             self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
                         }
                     }
+
+                    $scope.sortProjects();
                 }
 
                 var search_requested = $location.search().q;

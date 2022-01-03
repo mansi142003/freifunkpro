@@ -14,11 +14,13 @@ therefore adding an ignore comment -->
           </a>
         </div>
       </div>
-      <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
-        <i class="fa fa-times close-filters"></i>
-      </div>
       <div class="all-filters-option apply-flex center-content fade-in" ng-class="{'display-none':!lc.displayFilters}">
-        <h6><b>Filter Projects</b></h6>
+        <span>
+          <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
+            <i class="fa fa-times close-filters"></i>
+          </div>
+          <h4><b>Filter Projects</b></h4>
+        </span>
         <div class="filters-inputs apply-flex">
           <div class="filter-select-fields apply-flex evenly-spread-content">
             <label class="project-filter" ng-repeat="(filter, metadata) in projectFilterOptions">
@@ -54,7 +56,9 @@ therefore adding an ignore comment -->
                 <div class="card-title center">{{ project.name }}</div>
                 <div btf-markdown="project.desc" class="markdown"></div>
               </div>
-              <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span> </div>
+              <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{ mentor }}</a></span> </div>
+              <div ng-show="project.difficulty.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project.difficulty)" class="pr-element-detail chip">{{ project.difficulty }}</span>
+                <br> </div>
               <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
                 <br> </div>
               <div ng-show="project.collaborating_projects.length>0 && project.status.length<1" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
@@ -100,7 +104,7 @@ therefore adding an ignore comment -->
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
           <div class="small-heading uppercase">Mentors</div>
             <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">
-              <a ng-href="https://github.com/{{mentor}}" class="mentors-github-id chip" target="_blank">@{{mentor}}</a>
+              <a ng-href="https://github.com/{{mentor}}" class="mentors-github-id chip" target="_blank">@{{ mentor }}</a>
             </span>
         </div>
         <div ng-show="currentProject.developers_involved.length>0" class="project-detail-element">
