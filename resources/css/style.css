@@ -229,3 +229,12 @@ nav {
   -webkit-animation-name: fade-in;
   animation-name: fade-in;
 }
+
+.faqanswer ul {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.faqanswer ul li {
+  list-style: disc;
+}
