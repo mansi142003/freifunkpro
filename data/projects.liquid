@@ -9,6 +9,7 @@
 "requirements" : [{% for req in post.requirements %}"{{ req }}"{% unless forloop.last %},{% endunless %}
 {% endfor %}],
 "difficulty" : "{{ post.difficulty }}",
+"size" : "{{ post.size |default 'half-time' }}",
 "issues" :  [{% for post in post.issues %}"{{ post }}"{% unless forloop.last %},{% endunless %}
 {% endfor %}],
 "mentors" :  [{% for mentor in post.mentors %}"{{ mentor }}" {% unless forloop.last %},{% endunless %}{% endfor %}],

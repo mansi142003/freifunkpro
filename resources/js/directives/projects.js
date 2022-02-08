@@ -11,6 +11,7 @@ angular.module('coala')
                 $scope.selectedStatusesList = []
                 $scope.selectedTagsList = []
                 $scope.selectedLevelsList = []
+                $scope.selectedSizesList = []
                 $scope.selectedInitiativesList = []
                 $scope.selectedCollabsList = []
 
@@ -56,6 +57,7 @@ angular.module('coala')
                                     $scope.projectFilterOptions.tags.options[tag] = tag
                                 })
                                 $scope.projectFilterOptions.difficulty.options[project.difficulty.toUpperCase()] = project.difficulty
+                                $scope.projectFilterOptions.size.options[project.size] = project.size
                                 angular.forEach(project.initiatives, function (initiative) {
                                     $scope.projectFilterOptions.initiatives.options[initiative] = initiative
                                 })
@@ -76,6 +78,7 @@ angular.module('coala')
                     $scope.initializeSelectorData('status', 'Status', 'selectedStatusesList')
                     $scope.initializeSelectorData('tags', 'Project Tags', 'selectedTagsList')
                     $scope.initializeSelectorData('difficulty', 'Difficulty Level', 'selectedLevelsList')
+                    $scope.initializeSelectorData('size', 'Project Size', 'selectedSizesList')
                     $scope.initializeSelectorData('initiatives', 'Initiatives', 'selectedInitiativesList')
                     $scope.initializeSelectorData('collab-projects', 'Collaborating Projects', 'selectedCollabsList')
                     $scope.getFiltersMetadata()
@@ -126,6 +129,16 @@ angular.module('coala')
                     return selectedProjects
                 }
 
+                function filterProjectsBySize(projects) {
+                    var selectedProjects = []
+                    angular.forEach(projects, function (project) {
+                        if ($scope.selectedSizesList.includes(project.size) && !selectedProjects.includes(project)) {
+                            selectedProjects.push(project)
+                        }
+                    })
+                    return selectedProjects
+                }
+
                 function filterProjectsByInitiatives(projects) {
                     var selectedProjects = []
                     angular.forEach(projects, function (project) {
@@ -160,6 +173,9 @@ angular.module('coala')
                     else if (filter === 'difficulty') {
                         $scope.selectedLevelsList = list
                     }
+                    else if (filter === 'size') {
+                        $scope.selectedSizesList = list
+                    }
                     else if (filter === 'initiatives') {
                         $scope.selectedInitiativesList = list
                     }
@@ -173,6 +189,7 @@ angular.module('coala')
                         $scope.selectedStatusesList.length > 0 ||
                         $scope.selectedTagsList.length > 0 ||
                         $scope.selectedLevelsList.length > 0 ||
+                        $scope.selectedSizesList.length > 0 ||
                         $scope.selectedInitiativesList.length > 0 ||
                         $scope.selectedCollabsList.length > 0
                     )
@@ -189,6 +206,9 @@ angular.module('coala')
                         }
                         if ($scope.selectedLevelsList.length > 0 && filteredProjects.length > 0) {
                             filteredProjects = filterProjectsByDifficulty(filteredProjects)
+                        }
+                        if ($scope.selectedSizesList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsBySize(filteredProjects)
                         }
                         if ($scope.selectedInitiativesList.length > 0 && filteredProjects.length > 0) {
                             filteredProjects = filterProjectsByInitiatives(filteredProjects)

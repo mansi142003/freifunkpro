@@ -58,7 +58,7 @@ therefore adding an ignore comment -->
               </div>
               <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{ mentor }}</a></span> </div>
               <div ng-show="project.difficulty.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project.difficulty)" class="pr-element-detail chip">{{ project.difficulty }}</span>
-                <br> </div>
+                <span ng-show="project.size.length>0" ng-click="search(project.size)" class="pr-element-detail chip">{{ project.size }}</span>  <br> </div>
               <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
                 <br> </div>
               <div ng-show="project.collaborating_projects.length>0 && project.status.length<1" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
@@ -101,6 +101,8 @@ therefore adding an ignore comment -->
           <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span> </div>
         <div ng-show="currentProject.difficulty" class="project-detail-element">
           <div class="small-heading uppercase">Difficulty</div> <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span> </div>
+        <div ng-show="currentProject.size" class="project-detail-element">
+          <div class="small-heading uppercase">Size</div> <span class="pr-element-detail chip">{{ currentProject.size }}</span> </div>
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
           <div class="small-heading uppercase">Mentors</div>
             <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">
