@@ -23,9 +23,6 @@ org:
 twitter:
   username: freifunk 
 
-plugins:
-  - jekyll-netlify
-
 # Build settings
 exclude: [vendor, _projects/example.md]
 markdown: kramdown
