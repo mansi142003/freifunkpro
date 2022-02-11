@@ -32,6 +32,7 @@ collections:
   reports:
     output: false 
   faq:
+    sort_by: order
     output: true
 
 defaults:
