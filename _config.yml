@@ -28,6 +28,7 @@ exclude: [vendor, _projects/example.md]
 markdown: kramdown
 collections:
   projects:
+    sort_by: collaborating_projects
     output: true
   reports:
     output: false 
