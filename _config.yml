@@ -20,8 +20,8 @@ org:
     memorandum: "https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding_en.md"
     blog: "https://blog.freifunk.net"
 
-twitter:
-  username: freifunk 
+mastodon:
+  url: "https://social.freifunk.net/@freifunk"
 
 # Build settings
 exclude: [vendor, _projects/example.md]
