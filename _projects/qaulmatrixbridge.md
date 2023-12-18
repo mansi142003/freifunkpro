@@ -12,20 +12,18 @@ status: completed
 initiatives:
   - GSoC
   - GSoC2023
-issues: https://github.com/qaul/qaul.net/issues/530
+issues: 
+  - https://github.com/qaul/qaul.net/issues/530
 markdown: qaul-matrix-bridge.md
 mentors:
 - name: MathJud
   contact:
     github: MathJud
-    email:
-    other_chat_options:
+    other_chat_options: []
 - name: saces
   contact:
     github: saces
-    email: "example@example.com"
-    other_chat_options:
-    - https://matrix.com
+    other_chat_options: []
 requirements:
   - "Rust"
   - Go

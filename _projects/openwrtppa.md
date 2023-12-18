@@ -9,14 +9,13 @@ size: "175 hours"
 initiatives:
   - GSoC
   - GSoC2023
-issues:
 markdown: openwrt_ppa.md
 mentors:
 - name: zoobab
   contact:
     github: zoobab
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "OpenWrt PPA Part 2"
 requirements:
   - "Kubernetes"

@@ -10,20 +10,20 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: []
 size: "350 hours"
 markdown: freifunk_goes_100G.md
 mentors:
 - name: schuza
   contact:
     github: schuza
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: thuehn
   contact:
     github: thuehn
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 requirements:
   - "Ansi C"
   - "ash"

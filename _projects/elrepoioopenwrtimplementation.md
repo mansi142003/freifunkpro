@@ -1,19 +1,21 @@
 ---
 name: "elRepo.op OpenWrt Implementation"
 desc: "Research potability from elRepo.io Flutter project to OpenWrt ARM devices"
+status: "open"
+issues: []
 difficulty: "high"
 size: "half-time"
 mentors:
 - name: nicoechaniz
   contact:
     github: nicoechaniz
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: G10h4ck
   contact:
     github: G10h4ck
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 initiatives:
  - GSoC
  - GSoC2023

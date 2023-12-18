@@ -8,7 +8,7 @@ size: "350 hours"
 status: disabled
 issues:
  - "https://github.com/libremesh/lime-packages/issues/875"
-mentors:
+mentors: []
 initiatives:
  - GSoC
  - GSoC2023

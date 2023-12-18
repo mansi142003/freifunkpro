@@ -11,14 +11,15 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues: https://github.com/qaul/qaul.net/issues/314
+issues: 
+  - https://github.com/qaul/qaul.net/issues/314
 markdown: qaul-linux-ble-module.md
 mentors:
 - name: MathJud
   contact:
     github: MathJud
-    email:
-    other_chat_options:
+    email: jud@ocpa.ch
+    other_chat_options: []
 requirements:
   - "Rust"
   - BLE
