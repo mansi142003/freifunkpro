@@ -1,8 +1,6 @@
 ---
 name: "Mesh beacons: low bitrate communication in disconnected mesh radios"
 desc: "Provide a mechanism for mesh nodes to exchange (more) information with their peers without the need to be associated (scanning only). This has many useful use cases, from knowing the name of the node before connecting, to aiding antenna alignment with low quality signal, etc."
-requirements:
-  - "The applicant needs to have an understanding of low level programming."
 difficulty: medium
 size: "350 hours"
 status: disabled
@@ -13,6 +11,7 @@ initiatives:
   - GSoC
   - GSoC2023
 requirements:
+  - "The applicant needs to have an understanding of low level programming."
   - "C programming language"
 tags:
   - LibreMesh
