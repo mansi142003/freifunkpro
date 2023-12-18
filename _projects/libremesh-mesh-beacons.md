@@ -2,26 +2,26 @@
 name: "Mesh beacons: low bitrate communication in disconnected mesh radios"
 desc: "Provide a mechanism for mesh nodes to exchange (more) information with their peers without the need to be associated (scanning only). This has many useful use cases, from knowing the name of the node before connecting, to aiding antenna alignment with low quality signal, etc."
 requirements:
- - "The applicant needs to have an understanding of low level programming."
+  - "The applicant needs to have an understanding of low level programming."
 difficulty: medium
 size: "350 hours"
 status: disabled
 issues:
- - "https://github.com/libremesh/lime-packages/issues/875"
+  - "https://github.com/libremesh/lime-packages/issues/875"
 mentors: []
 initiatives:
- - GSoC
- - GSoC2023
+  - GSoC
+  - GSoC2023
 requirements:
- - "C programming language"
+  - "C programming language"
 tags:
- - LibreMesh
- - 802.11s
- - OpenWrt
- - Linux kernel
+  - LibreMesh
+  - 802.11s
+  - OpenWrt
+  - Linux kernel
 collaborating_projects:
- - libremesh
- - altermundi
+  - libremesh
+  - altermundi
 ---
 
 Exchanging information between disconnected 802.11s peers is important because connection takes a lot of time and/or the signal quality is not enough to reliably connect but is enough to send/receive some packets.
