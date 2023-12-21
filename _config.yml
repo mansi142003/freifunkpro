@@ -24,7 +24,7 @@ mastodon:
   url: "https://social.freifunk.net/@freifunk"
 
 # Build settings
-exclude: [vendor, _projects/example.md]
+exclude: [vendor, _projects/_template.md]
 markdown: kramdown
 collections:
   projects:

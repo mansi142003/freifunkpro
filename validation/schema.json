@@ -4,66 +4,84 @@
     "type": "object",
     "properties": {
         "name": {
+            "description": "Title of your project",
             "type": "string"
         },
         "desc": {
+            "description": "small description of your project",
             "type": "string"
         },
         "collaborating_projects": {
+            "description": "list of projects that are involved, e.g. OpenWRT",
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "developers_involved": {
+            "description": "list of developers in this project",
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "difficulty": {
-            "type": "string"
+            "description": "one of 'easy', 'medium', 'high', 'midrange' or 'tough'",
+            "type": "string",
+            "enum": ["easy", "medium", "high", "midrange", "tough"]
         },
         "status": {
-            "type": "string"
+            "description": "one of 'open', 'completed', 'in_progress', 'in_review', 'disabled' or 'suspended'",
+            "type": "string",
+            "enum": ["open", "completed", "in_progress", "in_review", "disabled", "suspended"]
         },
         "initiatives": {
+            "description": "List of events this project is offered, like GSoC 2024",
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "issues": {
+            "description": "List of links to issues, that can be solved by this project",
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "size": {
-            "type": "string"
+            "description": "either '175 hours' or '350 hours'",
+            "type": "string",
+            "enum": ["175 hours", "350 hours"]
         },
         "markdown": {
+            "description": "filename of this document",
             "type": "string"
         },
         "mentors": {
+            "description": "list of mentors, add at least one contact option per mentor",
             "type": "array",
             "items": {
                 "type": "object",
                 "minProperties": 1,
                 "properties": {
                     "name": {
+                        "description": "name of the mentor to be published",
                         "type": "string"
                     },
                     "contact": {
                         "type": "object",
                         "properties": {
                             "github": {
+                                "description": "your github username",
                                 "type": "string"
                             },
                             "email": {
+                                "description": "an email address",
                                 "type": "string"
                             },
                             "other_chat_options": {
+                                "description": "link to contact you, like your matrix username",
                                 "type": "array",
                                 "items": {
                                     "type": "string"
@@ -79,12 +97,14 @@
             }
         },
         "requirements": {
+            "description": "list of skills required for this project",
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "tags": {
+            "description": "list of tags for this project",
             "type": "array",
             "items": {
                 "type": "string"
