@@ -1,14 +1,8 @@
-<p align="center"><img src="screenshots/header.png"></p>
-
 # Projects
 
-A website that showcases projects! **If you want to use it and it's not exactly
-fitting your purpose, please do make upstream changes. We expect this project
-to be of use to others and we're happy to make it more generic so it's easier
-to adapt to other organizations.** This was built by coala community, to view
-live projects visit [projects.coala.io](https://projects.coala.io)
+This website was initially created by [coala](https://projects.coala.io) for their GSoC projects. We adopted it.
 
-(It'd be nice to have an organization YML or so e.g.)
+To view live projects visit [projects.freifunk.net](https://projects.freifunk.net)
 
 ## Purpose
 
@@ -39,11 +33,11 @@ Why?
 
 ### Clone and Run
 
-Clone coala Projects repository
+Clone freifunk Projects repository
 
-    $ git clone https://github.com/coala/projects.git
+    $ git clone https://github.com/freifunk/projects.git
 
-Run coala Projects website
+Run freifunk Projects website
 
     $ cd projects
     $ bundle install
@@ -59,7 +53,7 @@ If you face problems while installing Jekyll or using its gem bundler you may go
 ## Defining Projects
 
 Mentors and admins can define projects in markdown using the following structure and save it in the ``_projects`` folder with a relevant filename.
-A sample project definition is available [here](https://github.com/coala/projects/blob/master/_projects/example.md)
+A sample project definition is available [here](https://github.com/freifunk/projects/blob/main/_projects/_template.md)
 
 ## Defining FAQs
 
@@ -76,7 +70,7 @@ Answer
 
 ## Multi Language Support
 
-coala Projects supports multiple 'human languages'. To add a translation of a project
+freifunk Projects supports multiple 'human languages'. To add a translation of a project
 in a language, the following steps can be followed:
 
 - Create a folder with language code in ```data/locale``` folder.
