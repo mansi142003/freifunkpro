@@ -4,7 +4,7 @@ desc: "Research potability from elRepo.io Flutter project to OpenWrt ARM devices
 status: "open"
 issues: []
 difficulty: "high"
-size: "half-time"
+size: "175 hours"
 mentors:
 - name: nicoechaniz
   contact:
