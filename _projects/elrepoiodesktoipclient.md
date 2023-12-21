@@ -1,6 +1,7 @@
 ---
 name: "El Repo.io desktop client"
 desc: "Compile the actual flutter app into a desktop client using electron or native app"
+status: open
 requirements:
  - "Flutter knowledge"
 difficulty: "medium"
@@ -9,13 +10,13 @@ mentors:
 - name: nicoechaniz
   contact:
     github: nicoechaniz
-    email: 
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: G10h4ck
   contact:
     github: G10h4ck
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 initiatives:
  - GSoC
  - GSoC2023
