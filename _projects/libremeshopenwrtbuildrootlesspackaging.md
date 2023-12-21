@@ -14,8 +14,8 @@ mentors:
 - name: spiccinini
   contact:
     github: spiccinini
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "LiMe OpenWrt build-root-less package generator"
 requirements:
   - "Shell programming"

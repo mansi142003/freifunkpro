@@ -10,13 +10,13 @@ mentors:
 - name: nicoechaniz
   contact:
     github: nicoechaniz
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: G10h4ck
   contact:
     github: G10h4ck
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 initiatives:
  - GSoC
  - GSoC 2022

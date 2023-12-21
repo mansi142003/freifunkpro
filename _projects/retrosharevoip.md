@@ -15,8 +15,8 @@ mentors:
 - name: csoler
   contact:
     github: csoler
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "RetroShare Improve VOIP"
 requirements:
   - "Analyzing and coding"

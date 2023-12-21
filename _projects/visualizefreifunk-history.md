@@ -19,8 +19,8 @@ mentors:
 - name: andibraeu
   contact:
     github: andibraeu
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "Visualize freifunk community data and history"
 requirements:
   - "Analyzing and coding"

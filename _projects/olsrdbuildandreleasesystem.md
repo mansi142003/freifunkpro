@@ -17,13 +17,14 @@ mentors:
 - name: PolynomialDivision
   contact:
     github: PolynomialDivision
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: andibraeu
   contact:
     github: andibraeu
-    email:
+    email: "freifunk@andi95.de"
     other_chat_options:
+      - https://matrix.to/#/@andibraeu:bau-ha.us
 requirements:
   - "C"
   - "Makefile"

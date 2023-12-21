@@ -13,13 +13,13 @@ mentors:
 - name: thuehn
   contact:
     github: thuehn
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: schuza
   contact:
     github: schuza
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 initiatives:
  - GSoC
  - GSoC2023

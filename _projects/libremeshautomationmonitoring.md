@@ -19,13 +19,13 @@ mentors:
 - name: digitigrafo
   contact:
     github: digitigrafo
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: ilario
   contact:
     github: ilario
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 initiatives:
  - GSoC
  - GSoC2023

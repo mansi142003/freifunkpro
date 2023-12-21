@@ -18,13 +18,13 @@ mentors:
 - name: andibraeu
   contact:
     github: andibraeu
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: christian-draeger
   contact:
     github: christian-draeger
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "VocToWeb: Split contents and logic"
 requirements:
   - "Analyzing and coding"

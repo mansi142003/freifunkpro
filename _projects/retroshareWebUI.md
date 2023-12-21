@@ -15,8 +15,8 @@ mentors:
 - name: csoler
   contact:
     github: csoler
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "Retroshare Web Interface"
 requirements:
   - "Analyzing and coding"

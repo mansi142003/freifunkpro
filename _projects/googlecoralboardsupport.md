@@ -17,8 +17,8 @@ mentors:
 - name: schuza
   contact:
     github: schuza
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 requirements:
   - "Ansi C"
   - "Ansi C++"

@@ -15,13 +15,13 @@ mentors:
 - name: csoler
   contact:
     github: csoler
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 - name: G10h4ck
   contact:
     github: G10h4ck
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 name: "Improve the Retroshare Android client"
 requirements:
   - "Android Development Toolchain"

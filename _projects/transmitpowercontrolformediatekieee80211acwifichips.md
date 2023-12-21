@@ -17,8 +17,8 @@ mentors:
 - name: thuehn
   contact:
     github: thuehn
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 requirements:
   - "Ansi C"
 tags:

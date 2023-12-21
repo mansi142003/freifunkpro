@@ -17,8 +17,8 @@ mentors:
 - name: MathJud
   contact:
     github: MathJud
-    email:
-    other_chat_options:
+    email: ""
+    other_chat_options: []
 requirements:
   - "Rust"
   - Protobuf
