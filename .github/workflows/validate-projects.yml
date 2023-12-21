@@ -26,6 +26,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v2.4.0
         with:
           comment: true
+          use_gitignore: false
           json_schema: ./validation/schema.json
           json_exclude_regex: ""
           exclude_file: ./validation/exclude
