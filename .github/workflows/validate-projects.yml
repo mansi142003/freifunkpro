@@ -28,5 +28,6 @@ jobs:
           comment: true
           json_schema: ./validation/schema.json
           json_exclude_regex: ""
+          exclude_file: ./validation/exclude
           base_dir: "./_projects"
           yaml_as_json: true
