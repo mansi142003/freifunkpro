@@ -14,12 +14,12 @@ initiatives:
 issues:
 - link to issue 1 
 - link to issue 2 
-size: 175 hours
+size: 175 hours # choose between 175 hours and 350 hours
 markdown: filename of your md file
 mentors:
 - name: public name of mentor 1
   contact:
-    github: github handle
+    github: github handle # provide at least one contact option
     email: email address
     other_chat_options:
     - link to matrix or similar
