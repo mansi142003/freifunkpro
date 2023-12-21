@@ -12,8 +12,8 @@ status: disabled
 initiatives:
   - GSoC
   - GSoC2023
-issues:
-mentors:
+issues: []
+mentors: []
 requirements:
   - "Lua programming language"
   - "Networking Knowledge"

@@ -8,7 +8,7 @@ size: "350 hours"
 status: disabled
 initiatives:
   - GSoC
-issues:
+issues: []
 markdown: libremesh-openwrt_build_root_less_packaging.md
 mentors:
 - name: spiccinini

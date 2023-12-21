@@ -10,7 +10,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: [] 
 size: "350 hours"
 markdown: transmit_power_control_for_mediatek_ieee_802_11ac_wifi_chips.md
 mentors:

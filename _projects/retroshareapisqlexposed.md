@@ -1,6 +1,7 @@
 ---
 name: "Expose an API to do SQL queries"
 desc: "Create some endpoints where to do SQL CRUD queries"
+status: open
 requirements:
  - "C++ knowledge"
  - "RetroShare knowledge"

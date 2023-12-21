@@ -9,7 +9,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: []
 markdown: retroshare.wall-plugin.md
 mentors:
 - name: csoler

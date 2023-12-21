@@ -9,7 +9,7 @@ status: completed
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: []
 markdown: retroshare.WebUI.md
 mentors:
 - name: csoler

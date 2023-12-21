@@ -9,7 +9,7 @@ status: disabled
 issues:
  - "https://github.com/libremesh/lime-packages/issues/261"
  - "https://github.com/libremesh/lime-packages/issues/244"
-mentors:
+mentors: []
 initiatives:
  - GSoC
  - GSoC2023

@@ -10,7 +10,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: []
 size: "350 hours"
 markdown: google_coral_board_support.md
 mentors:

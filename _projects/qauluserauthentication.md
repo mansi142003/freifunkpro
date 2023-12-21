@@ -11,7 +11,8 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues: https://github.com/qaul/qaul.net/issues/531
+issues: 
+  - https://github.com/qaul/qaul.net/issues/531
 markdown: qaul-user-authentication.md
 mentors:
 - name: MathJud

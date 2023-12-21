@@ -8,7 +8,7 @@ requirements:
  - C
 difficulty: "tough"
 size: "350 hours"
-issues:
+issues: []
 mentors:
 - name: thuehn
   contact:

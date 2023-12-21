@@ -10,7 +10,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2023
-issues:
+issues: []
 size: "350 hours"
 markdown: wifi_device_clustering_and_fingerprinting.md
 mentors:
