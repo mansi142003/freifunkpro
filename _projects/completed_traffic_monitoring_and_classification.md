@@ -10,7 +10,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2022
-issues:
+issues: {}
 size: "350 hours"
 markdown: traffic_monitoring_and_classification.md
 mentors:

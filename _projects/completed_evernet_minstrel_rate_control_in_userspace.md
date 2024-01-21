@@ -10,7 +10,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2022
-issues:
+issues: {}
 size: "350 hours"
 markdown: evernet_minstrel_rate_control_in_userspace.md
 mentors:

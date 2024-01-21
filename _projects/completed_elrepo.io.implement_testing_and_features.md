@@ -12,8 +12,8 @@ mentors:
         github: nicoechaniz
         email: ""
         other_chat_options: []
-   - name: G10h4ck
-     contact:
+  - name: G10h4ck
+    contact:
         github: G10h4ck
         email: ""
         other_chat_options: []
