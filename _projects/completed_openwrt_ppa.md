@@ -9,7 +9,7 @@ status: completed
 initiatives:
   - GSoC
   - GSoC2021
-issues:
+issues: []
 markdown: openwrt_ppa.md
 mentors:
   - name: zoobab

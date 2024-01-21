@@ -10,7 +10,8 @@ size: 350 hours
 initiatives:
   - GSoC
   - GSoC2021
-issues: https://git.irde.st/we/irdest/-/issues/1
+issues: 
+  - https://git.irde.st/we/irdest/-/issues/1
 markdown: irdest-basic-android-app.md
 mentors:
   - name: spacekookie
