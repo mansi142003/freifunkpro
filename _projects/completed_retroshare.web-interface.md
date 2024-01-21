@@ -5,7 +5,7 @@ desc: "Improve the existing Javascript Web Interface of the Retroshare project b
 developers_involved: []
 difficulty: easy
 size: "175 hours"
-status: open
+status: completed
 initiatives:
   - GSoC
   - GSoC2022

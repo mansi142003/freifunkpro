@@ -5,7 +5,7 @@ requirements:
  - "Knowledge or interest in containerization an virtualization tools, such as docker"
 difficulty: "medium"
 size: "350 hours"
-status: open
+status: completed
 mentors:
   - name: germanferrero
     contact:

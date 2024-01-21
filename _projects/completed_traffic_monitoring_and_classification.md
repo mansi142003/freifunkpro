@@ -6,7 +6,7 @@ collaborating_projects:
 developers_involved:
   - schuza
 difficulty: tough
-status: open
+status: completed
 initiatives:
   - GSoC
   - GSoC2022

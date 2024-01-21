@@ -7,7 +7,7 @@ developers_involved:
   - christian-draeger
 difficulty: medium
 size: "175 hours"
-status: open
+status: completed
 email: ab+gsoc2022@andi95.de
 initiatives:
   - GSoC

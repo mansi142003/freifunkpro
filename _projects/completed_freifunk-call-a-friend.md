@@ -7,7 +7,7 @@ collaborating_projects:
 developers_involved: []
 difficulty: high
 size: "350 hours"
-status: open
+status: completed
 email: moritzwarning@web.de
 initiatives:
   - GSoC2022
