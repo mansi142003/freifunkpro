@@ -11,7 +11,7 @@ status: open
 email: moritzwarning@web.de
 initiatives:
   - GSoC2022
-issues: {}
+issues: []
 mentors:
   - name: mwarning
     contact:

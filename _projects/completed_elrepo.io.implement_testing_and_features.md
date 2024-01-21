@@ -6,6 +6,7 @@ requirements:
  - "RetroShare basic knowledge and c++ will be apreciated"
 difficulty: "medium"
 size: "175 hours"
+status: completed
 mentors:
   - name: nicoechaniz
     contact:

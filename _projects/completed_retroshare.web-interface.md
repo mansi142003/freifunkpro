@@ -9,7 +9,7 @@ status: open
 initiatives:
   - GSoC
   - GSoC2022
-issues: {}
+issues: []
 markdown: retroshare.embedded-friend-server.md
 mentors:
   - name: csoler
