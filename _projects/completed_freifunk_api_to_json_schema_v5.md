@@ -5,6 +5,7 @@ desc: "Migrate the API Schema and our tools to latest json schema draft"
 developers_involved: []
 difficulty: easy
 status: completed
+size: 350 hours
 email: ab+gsoc2021@andi95.de
 initiatives:
   - GSoC

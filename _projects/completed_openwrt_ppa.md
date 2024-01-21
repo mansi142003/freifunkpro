@@ -3,6 +3,7 @@ collaborating_projects:
   - openwrt
 desc: "Create a platform to build and host packages for openwrt.org (PPA, or Personal Package Archive)"
 developers_involved: [ ]
+size: 350 hours
 difficulty: medium
 status: completed
 initiatives:

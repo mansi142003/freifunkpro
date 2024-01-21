@@ -2,6 +2,7 @@
 name: "OpenWrt device page"
 desc: "Refresh overview page for OpenWrt supported devices"
 status: completed
+size: 350 hours
 requirements:
  - HTML
  - CSS

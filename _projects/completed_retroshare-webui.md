@@ -2,6 +2,7 @@
 name: "RetroShare Web Interface"
 desc: "Continue the development of the Web interface based on the JSON API of Retroshare"
 markdown: retroshare-webui.md
+size: 350 hours
 collaborating_projects:
   - RetroShare
 developers_involved:

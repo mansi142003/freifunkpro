@@ -8,6 +8,7 @@ collaborating_projects:
 developers_involved: []
 difficulty: medium
 status: completed
+size: 350 hours
 initiatives:
   - GSoC
   - GSoC2021
