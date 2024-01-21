@@ -14,7 +14,7 @@ initiatives:
 issues:
 - link to issue 1 
 - link to issue 2 
-size: 175 hours # choose between 175 hours and 350 hours
+size: 175 hours # choose between 90 hours, 175 hours and 350 hours
 markdown: filename of your md file
 mentors:
 - name: public name of mentor 1

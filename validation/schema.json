@@ -50,9 +50,9 @@
             }
         },
         "size": {
-            "description": "either '175 hours' or '350 hours'",
+            "description": "either '90 hours', '175 hours' or '350 hours'",
             "type": "string",
-            "enum": ["175 hours", "350 hours"]
+            "enum": ["90 hours", "175 hours", "350 hours"]
         },
         "markdown": {
             "description": "filename of this document",
