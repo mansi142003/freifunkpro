@@ -7,10 +7,9 @@ developers_involved:
 difficulty: medium
 size: "175 hours"
 status: open
-email: ab+gsoc2023@andi95.de
 initiatives:
   - GSoC
-  - GSoC2023
+  - GSoC2024
 issues:
   - "https://github.com/freifunk/vis.api.freifunk.net/issues/1"
   - "https://github.com/freifunk/vis.api.freifunk.net/issues/15"
@@ -19,8 +18,8 @@ mentors:
 - name: andibraeu
   contact:
     github: andibraeu
-    email: ""
-    other_chat_options: []
+    email: "ab+gsoc2024@andi95.de"
+    other_chat_options: ["https://matrix.to/#/@andibraeu:bau-ha.us"]
 name: "Visualize freifunk community data and history"
 requirements:
   - "Analyzing and coding"
@@ -29,7 +28,7 @@ requirements:
   - "graphQL"
   - "R, Python, html, javascript"
 tags:
-  - GSoC2023
+  - GSoC2024
   - json
   - web
   - data mining
