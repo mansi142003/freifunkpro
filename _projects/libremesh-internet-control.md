@@ -2,30 +2,30 @@
 name: "LibreMesh Internet Control"
 desc: "Develop a simple interface for LibreMesh to enable internet control and service whitelisting, addressing the needs of communities."
 collaborating_projects:
-- LibreMesh
-- Pirania
+  - LibreMesh
+  - Pirania
 difficulty: medium
 status: open
 initiatives:
-- GSoC 2024
+  - GSoC 2024
 size: 350 hours
 markdown: libremesh-internet-control.md
 mentors:
-- name: Luandro
-  contact:
-    github: luandro
-    email: luandro@gmail.com
-    other_chat_options:
-    - luandro:matrix.org
+  - name: Luandro
+    contact:
+      github: luandro
+      email: luandro@gmail.com
+      other_chat_options:
+      - luandro:matrix.org
 requirements:
-- Knowledge in front-end javascript development
-- Knowledge of Lua for the backend in OpenWRT
-- Experience with IP tables and traffic control
+  - Knowledge in front-end javascript development
+  - Knowledge of Lua for the backend in OpenWRT
+  - Experience with IP tables and traffic control
 tags:
-- LibreMesh
-- Internet Control
-- Block scheduler
-- Pirania
+  - LibreMesh
+  - Internet Control
+  - Block scheduler
+  - Pirania
 ---
 
 This project is a response to the needs expressed by the Guarani people and other indigenous communities in Brazil who have faced challenges with the introduction of internet in their territories. The project aims to create a user-friendly interface for internet control within the LibreMesh network, allowing for scheduled blockage of internet access while whitelisting essential services like WhatsApp for emergency communication. The solution will build upon the existing Pirania software, adapting it to the specific requirements of communities.
