@@ -9,7 +9,7 @@ difficulty: tough
 status: open
 initiatives:
   - GSoC
-  - GSoC2023
+  - GSoC2024
 issues: []
 size: "350 hours"
 markdown: wifi_device_clustering_and_fingerprinting.md

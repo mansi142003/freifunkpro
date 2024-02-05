@@ -13,12 +13,13 @@ issues: []
 size: 350 hours
 markdown: transmit_power_control_algorithm_for_modern_wifi_chips.md
 mentors:
-- name: thuehn
-  contact:
-    github: thuehn
-- name: prashiddhath
-  contact:
-    github: prashiddhath
+  - name: thuehn
+    contact:
+      github: thuehn
+      email: thomas.huehn@evernet-eg.de
+  - name: prashiddhath
+    contact:
+      github: prashiddhath
 requirements:
   - "Python"
   - "Ansi C"

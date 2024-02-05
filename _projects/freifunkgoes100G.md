@@ -9,7 +9,7 @@ difficulty: midrange
 status: open
 initiatives:
   - GSoC
-  - GSoC2023
+  - GSoC2024
 issues: []
 size: "350 hours"
 markdown: freifunk_goes_100G.md
