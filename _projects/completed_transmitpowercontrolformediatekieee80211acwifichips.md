@@ -6,10 +6,10 @@ collaborating_projects:
 developers_involved:
   - thuehn
 difficulty: tough
-status: open
+status: completed
 initiatives:
   - GSoC
-  - GSoC2024
+  - GSoC2022
 issues: [] 
 size: "350 hours"
 markdown: transmit_power_control_for_mediatek_ieee_802_11ac_wifi_chips.md
