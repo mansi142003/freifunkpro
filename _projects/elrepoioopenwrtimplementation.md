@@ -1,7 +1,7 @@
 ---
 name: "elRepo.op OpenWrt Implementation"
 desc: "Research potability from elRepo.io Flutter project to OpenWrt ARM devices"
-status: "open"
+status: "disabled"
 issues: []
 difficulty: "high"
 size: "175 hours"

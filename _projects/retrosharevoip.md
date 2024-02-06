@@ -5,7 +5,7 @@ desc: "RetroShare Improve VOIP"
 developers_involved: []
 difficulty: medium
 size: "175 hours"
-status: open
+status: disabled
 initiatives:
   - GSoC
   - GSoC2022

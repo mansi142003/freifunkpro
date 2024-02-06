@@ -5,7 +5,7 @@ desc: "RetroShare Create a Social/Wall/Blog system based on GXS"
 developers_involved: []
 difficulty: medium
 size: "350 hours"
-status: open
+status: disabled
 initiatives:
   - GSoC
   - GSoC2023

@@ -6,7 +6,7 @@ collaborating_projects:
 developers_involved:
   - PolynomialDivision
 difficulty: medium
-status: open
+status: disabled
 initiatives:
   - GSoC
   - GSoC2023

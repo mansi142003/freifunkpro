@@ -1,7 +1,7 @@
 ---
 name: "El Repo.io desktop client"
 desc: "Compile the actual flutter app into a desktop client using electron or native app"
-status: open
+status: disabled
 requirements:
  - "Flutter knowledge"
 difficulty: "medium"
