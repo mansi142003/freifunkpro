@@ -41,7 +41,7 @@ Your GSoC Project
     * Description of software tests and test coverage
     * Performance prediction and proposal for the evaluation
  * Project Details - more detailed description
- * Project Size - choose to spend 175 hours or 350 hours.
+ * Project Size - choose to spend 90 hours, 175 hours or 350 hours.
  * Project Schedule - provide a rough timetable with milestones for every 2 weeks
  * Availability - How do you plan to spend the designated work hours during the summer? Do you choose the standard
 
