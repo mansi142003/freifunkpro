@@ -6,7 +6,7 @@ developers_involved:
   - andibraeu
 difficulty: medium
 size: "175 hours"
-status: open
+status: in_progress
 initiatives:
   - GSoC
   - GSoC2024

@@ -5,7 +5,7 @@ collaborating_projects:
   - openwrt.org
 developers_involved: []
 difficulty: tough
-status: open
+status: in_progress
 initiatives:
   - GSoC
   - GSoC 2024
