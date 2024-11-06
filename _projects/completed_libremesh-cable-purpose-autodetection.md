@@ -8,7 +8,7 @@ collaborating_projects:
 developers_involved: []
 difficulty: medium
 size: "350 hours"
-status: in_progress
+status: completed
 initiatives:
   - GSoC
   - GSoC2024

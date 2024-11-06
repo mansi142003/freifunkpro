@@ -6,7 +6,7 @@ collaborating_projects:
 developers_involved:
   - thuehn
 difficulty: tough
-status: in_progress
+status: completed
 initiatives:
   - GSoC
   - GSoC 2024

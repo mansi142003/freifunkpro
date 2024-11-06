@@ -10,7 +10,7 @@ developers_involved:
 - Tania
 - Luandro
 difficulty: medium
-status: in_progress 
+status: completed 
 initiatives:
 - GSoC 2024
 issues:

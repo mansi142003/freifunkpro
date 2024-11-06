@@ -7,7 +7,7 @@ developers_involved:
   - MathJud
 difficulty: medium
 size: "350 hours"
-status: in_progress
+status: completed
 initiatives:
   - GSoC
   - GSoC2024
