@@ -18,7 +18,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build
+      run: bundle exec jekyll build
     - name: Publish
       if: github.event_name == 'push'
       uses: nogsantos/scp-deploy@v1.3.0
