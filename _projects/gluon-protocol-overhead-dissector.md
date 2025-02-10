@@ -11,7 +11,7 @@ developers_involved:
 difficulty: medium
 status: open
 initiatives:
-- GSoC 2024
+- GSoC 2025
 issues: []
 size: 175 hours # choose between 90 hours, 175 hours and 350 hours
 markdown: filename of your md file

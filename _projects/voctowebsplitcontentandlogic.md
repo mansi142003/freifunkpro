@@ -9,7 +9,7 @@ size: "175 hours"
 status: open
 initiatives:
   - GSoC
-  - GSoC2024
+  - GSoC 2025
 issues:
   - "https://github.com/freifunk/voctoweb/issues/2"
 markdown: voctoweb-split-content-and-logic.md
@@ -30,7 +30,7 @@ requirements:
   - "refactoring, migrations"
   - "ruby, html, javascript"
 tags:
-  - GSoC2024
+  - GSoC2025
   - json
   - ruby
   - web

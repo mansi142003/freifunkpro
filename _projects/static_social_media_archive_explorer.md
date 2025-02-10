@@ -9,7 +9,7 @@ size: "90 hours"
 status: open
 initiatives:
   - GSoC
-  - GSoC2025
+  - GSoC 2025
 issues: []
 mentors:
 - name: andibraeu

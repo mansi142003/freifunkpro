@@ -9,7 +9,7 @@ difficulty: tough
 status: open
 initiatives:
   - GSoC
-  - GSoC2024
+  - GSoC 2025
 issues: []
 size: "350 hours"
 markdown: google_coral_board_support.md

@@ -9,7 +9,7 @@ size: "90 hours"
 status: open
 initiatives:
   - GSoC
-  - GSoC2024
+  - GSoC 2025
 issues:
   - https://github.com/freifunk/common.api.freifunk.net/issues/19
 mentors:
@@ -25,7 +25,7 @@ requirements:
   - "ics"
   - "ical"
 tags:
-  - GSoC2024
+  - GSoC2025
   - ical
   - web
 ---
