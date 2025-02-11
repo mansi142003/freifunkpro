@@ -10,7 +10,7 @@ developers_involved:
 difficulty: high
 status: open
 initiatives:
-- GSoC 2024
+- GSoC 2025
 issues:
 - link to issue 1 
 - link to issue 2 
