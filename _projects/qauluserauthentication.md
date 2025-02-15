@@ -10,7 +10,7 @@ size: "350 hours"
 status: open
 initiatives:
   - GSoC
-  - GSoC2024
+  - GSoC 2025
 issues: 
   - https://github.com/qaul/qaul.net/issues/531
 markdown: qaul-user-authentication.md
@@ -24,7 +24,7 @@ requirements:
   - "Rust"
   - Protobuf
 tags:
-  - GSoC2023
+  - GSoC2025
   - qaul
   - Rust
   - libp2p
