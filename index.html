@@ -156,7 +156,7 @@
 </script>
 <script>
   function keyPressed(event, loc) {
-    if (event.ctrlKey) {
+    if (event && event.ctrlKey) {
       window.open(loc, '_blank');
     }
   }
