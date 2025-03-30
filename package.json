@@ -1,0 +1,20 @@
+{
+  "name": "freifunkpro",
+  "version": "1.0.0",
+  "description": "This website was initially created by [coala](https://projects.coala.io) for their GSoC projects. We adopted it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansi142003/freifunkpro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansi142003/freifunkpro/issues"
+  },
+  "homepage": "https://github.com/mansi142003/freifunkpro#readme"
+}
